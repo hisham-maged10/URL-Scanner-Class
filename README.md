@@ -27,7 +27,10 @@ that can be used to specify if the object of the URLScanner has a search target 
 gives you **_Two Options_** 
 Either to parse and add _**All**_ links in the given **URL** to the ArrayList
 or to parse and add ***Specific*** links in the given **URL**
-**you can open it via the Run me.bat file which will open Command Prompt window and compiles the .java file automatically and executes the .class file automatically** 
+# Run me.bat file 
+_**you can open it via the Run me.bat file which will open Command Prompt window and compiles the .java file automatically and executes the .class file automatically**_ 
+![ScreenShot](https://github.com/hisham-maged10/URL-Scanner-Class/blob/master/Screenshot%20(2034).png)
+# Which will Open
 ![ScreenShot](https://github.com/hisham-maged10/URL-Scanner-Class/blob/master/Screenshot%20(2027).png)
 # ALL links Option
 accepts 1, one, a, A, One, all, All as user inputs
