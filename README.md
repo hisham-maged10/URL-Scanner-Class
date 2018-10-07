@@ -28,7 +28,7 @@ gives you **_Two Options_**
 Either to parse and add _**All**_ links in the given **URL** to the ArrayList
 or to parse and add ***Specific*** links in the given **URL**
 # Run me.bat file 
-_**you can open it via the Run me.bat file which will open Command Prompt window and compiles the .java file automatically and executes the .class file automatically**_ 
+_**You can open the Program via the Run me.bat file which will open Command Prompt window and compiles the .java file automatically and executes the .class file automatically**_ 
 ![ScreenShot](https://github.com/hisham-maged10/URL-Scanner-Class/blob/master/Screenshot%20(2034).png)
 # Which will Open
 ![ScreenShot](https://github.com/hisham-maged10/URL-Scanner-Class/blob/master/Screenshot%20(2027).png)
