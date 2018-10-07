@@ -68,12 +68,14 @@ public class URLScanner
 		String token;
 		try(Scanner input=new Scanner(url.openStream()))
 		{
+			int i=1,j=1;
 			while(input.hasNextLine())
 			{
+				System.out.println("working parsed: "+(j++)+" item");
 				if((token=input.nextLine()).toLowerCase().contains("href=\"") && validateTokenURL((token=token.substring(token.indexOf("\"")+1,token.indexOf("\"",token.indexOf("\"")+1)))))
 				{
-					
 					links.add(token);
+					System.out.println((i++)+" Links added..");
 				}
 				else continue;
 			}
@@ -96,12 +98,14 @@ public class URLScanner
 		String token;
 		try(Scanner input=new Scanner(new URL(urlStr).openStream()))
 		{
+			int i=1,j=1;
 			while(input.hasNextLine())
 			{
-				if((token=input.nextLine()).toLowerCase().contains("href=\"") && validateTokenURL((token=token.substring(token.indexOf("\"")+1,token.indexOf("\"",token.indexOf("\"")+1)))))
+				System.out.println("working parsed: "+(j++)+" item");
+				if((token=input.nextLine()).toLowerCase().contains(target) && validateTokenURL((token=token.substring(token.indexOf("\"")+1,token.indexOf("\"",token.indexOf("\"")+1)))))
 				{
-					
 					links.add(token);
+					System.out.println((i++)+" Links added with "+target+"..");
 				}
 				else continue;
 			}
@@ -124,12 +128,14 @@ public class URLScanner
 		String token;
 		try(Scanner input=new Scanner(url.openStream()))
 		{
+			int i=1,j=1;
 			while(input.hasNextLine())
 			{
-				if((token=input.nextLine()).toLowerCase().contains("href=\"") && validateTokenURL((token=token.substring(token.indexOf("\"")+1,token.indexOf("\"",token.indexOf("\"")+1)))))
+				System.out.println("working parsed: "+(j++)+" item");
+				if((token=input.nextLine()).toLowerCase().contains(target) && validateTokenURL((token=token.substring(token.indexOf("\"")+1,token.indexOf("\"",token.indexOf("\"")+1)))))
 				{
-					
 					links.add(token);
+					System.out.println((i++)+" Links added with "+target+"..");
 				}
 				else continue;
 			}
