@@ -57,3 +57,9 @@ for example:-
 **Or giving the url and search target via command line arguements while executing**
 for example:-
 ![ScreenShot](https://github.com/hisham-maged10/URL-Scanner-Class/blob/master/Screenshot%20(2032).png)
+
+**In the end by choosing a link, for Example link#5**
+![ScreenShot](https://github.com/hisham-maged10/URL-Scanner-Class/blob/master/Screenshot%20(2035).png)
+**The program gives you a loop question if you want to open another link and at the same time opens the chosen link via default browser**
+![ScreenShot](https://github.com/hisham-maged10/URL-Scanner-Class/blob/master/Screenshot%20(2036).png)
+
