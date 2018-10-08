@@ -1,4 +1,4 @@
-# URL-Scanner-Class (Made and tested by NotePad)
+# URL-Scanner-Class (HTMLParser) (Made and tested by NotePad)
 ## URL Scanner class is a class that Can parse URLs and links from any webpage given if exists 
 URLScanner class have **Four _Overloaded_ Constructors**
 -----
