@@ -63,3 +63,6 @@ for example:-
 **The program gives you a loop question if you want to open another link and at the same time opens the chosen link via default browser**
 ![ScreenShot](https://github.com/hisham-maged10/URL-Scanner-Class/blob/master/Screenshot%20(2036).png)
 
+
+#### Exceptions
+The class has its own exception called ***UnsupportedPlatformException*** which is thrown by _**OpenLinkAt()**_ method if accessing the browser is not supported on your current Platform.
